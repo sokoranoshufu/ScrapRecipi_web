@@ -1,0 +1,344 @@
+html{
+  font-family: inherit;
+}
+body{
+  background-color:#f0f0f0;
+  background-image: url(C:\Users\yyy_f\github\ScrapRecipi_web\gaz\icon.png);
+  background-position: 0,0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "メイリオ",sans-serif;
+  /* padding-top:80px; */
+  margin: 0;
+}
+h1{
+  padding-left: 40px;
+  white-space: nowrap;
+  font-size:28px;
+  margin-top: 30px;
+  color: #880e4f;
+
+}
+h2{
+  font-size:25px;
+  margin-top: 0px;
+  border-bottom: solid 3px #c48b9f;
+}
+h3{
+  font-size:23px;
+  color:#880e4f;
+  margin: 0;
+}
+h4{
+  font-size: 22px;
+  margin-top: 30px;
+margin-bottom:0px;
+}
+h5{
+  font-size: 15px;
+}
+p{
+  line-height: 2;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  font-size:13px;
+  padding-right:10px;
+}
+img{
+  vertical-align: bottom;
+}
+header{
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  /* position:fixed; */
+  display: block;
+  background-color: white;
+  background-repeat: repeat-x;
+  background-position: 0px 50px;
+  /* border-bottom: 1px solid #eeeeee; */
+  clear: both;
+  margin-top: 0;
+  z-index: 1;
+  align-items: center;
+
+}
+ul li{
+  list-style-type: none;
+  /* line-height: 100%;
+  display: inline-block;
+  float: left; */
+}
+a{
+  color:#3e2723;
+}
+table{
+  width: 100%
+}
+tr{
+  height: 50px;
+}
+
+
+.mainStyle{
+  padding-left: 20px;
+}
+
+ul.linksstyle {
+  border-bottom: 3px solid #f5f5f5;
+  background-color: white;
+  margin: 0;
+  padding: 0px;
+  padding-left: 40px;
+  width: 100%;
+  display: flex;
+  list-style: none;
+    height: 50px;
+  }
+.linksstyle nav{
+  width: 100%;
+  background-color: #ff0000;
+  border-top: 2px #aaffaa;
+  border-bottom: 3px #aaaaff;
+  font-size: 94%;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  list-style: none;
+  box-sizing: border-box;
+}
+ul.linksstyle ul{
+  display: none;
+  margin: 0px;
+  padding:0px;
+  position:absolute;
+  /* text-align: center; */
+  list-style-type: disc;
+  flex-wrap: nowrap;
+  /* white-space: nowrap;  横になる！*/
+}
+ul.linksstyle ul li{
+  width: 130px;
+}
+
+ul.linksstyle li:hover ul{
+  display:block;
+}
+ul.linksstyle li {
+  /* width: 170px; */
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+  padding-left: 10px;
+}
+ul.linksstyle a{
+  color: #6d4c41;
+  background-color: white;
+  border-bottom: 3px solid #6d4c41;
+  line-height: 30px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px 7px;
+  white-space: nowrap;
+}
+ul.linksstyle a:hover{
+  font-weight: bold;
+  background-color: #eeeeee;
+  color:#3e2723;
+}
+ul.linksstyle ul>li>a{
+  text-align: left;
+  border-bottom: 2px solid #6d4c41;
+}
+
+.selectStyle{
+  font-size: 15px;
+  margin: 0;
+  font-weight: bold;
+  color:#3e2723;
+  background-color: #eeeeee;
+  border-bottom: 3px solid #6d4c41;
+  line-height: 30px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px 7px;
+  white-space: nowrap;
+}
+
+.wakustyle1{
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #f0f0f0;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.wakustyle1 h5{
+  margin: 10px 0px 10px 0px;
+}
+.wakustyle2{
+  background-color: #f0f0f033;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #f0f0f0;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.setumei{
+  font-size:13px;
+  padding-right:35px;
+}
+#topnav{
+  height: 70px;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #dee2e8;
+}
+
+.mwaku{
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #fefefe;
+  margin: 30px 10px 10px 10px;
+  padding: 40px;
+}
+
+.footerStyle{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  text-align: right;
+  font-size: 12px;
+  float: right;
+
+}
+.footerStyle a{
+  color: gray;
+
+}
+
+.yokoStyle{
+  display: flex;
+  align-items: flex-start;
+}
+.yokoStyle img{
+  padding-right: 15px;
+}
+.yokoStyle p{
+  margin-top: -3px;
+}
+
+.tops img{
+  height: 40px;
+}
+/* @media (min-width:600px){
+  #parent{
+    display: flex;
+  }
+  #child1 (min-width:600px){
+    flex:500px;
+  }
+  #child2 {
+    flex:1;
+  }
+} */
+@media screen and (max-width:600px) {
+  body{
+    font-size: 9px;
+  }
+p{
+  font-size: 9px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-right: 5px;
+}
+h1{
+  padding-left: 0;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #880e4f;
+}
+h2{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+h3 {
+  margin-top: 7px;
+  font-size: 13px;
+}
+h4{
+  margin-top: 8px;
+  font-size: 11px;
+}
+h5{
+  margin-top: 19px;
+  font-size: 10px;
+  margin-bottom: 0;
+}
+header{
+  height: 30px;
+  padding-top: 0;
+  top : 0;
+  left: 0;
+}
+.tops img{
+  height: 20px;
+}
+.setumei{
+  padding-right: 5px;
+  font-size: 6px;
+}
+.yokoStyle{
+  display: block;
+}
+.wakustyle1 h5{
+  margin-bottom: 0;
+}
+.mwaku{
+  background-color: white;
+  border-radius: 3px;
+  border: 0;
+  margin: 3px;
+  padding: 6px;
+}
+.wakustyle1{
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 0;
+  padding: 3px;
+}
+.wakustyle2{
+  background-color: #ffffff;
+  border-radius: 3px;
+  border-color: #000000;
+  border: 1px solid;
+  padding: 2px;
+}
+ul.linksstyle{
+  height: 30px;
+  padding-left: 0;
+}
+ul.linksstyle a{
+  line-height: 10px;
+  padding : 5px;
+}
+ul.linksstyle img{
+  height: 10px;
+}
+ul.linksstyle ul li{
+  width: 100px;
+}
+.selectStyle{
+  line-height:10px;
+  padding: 5px;
+}
+.footerStyle{
+  height: 30px;
+}
+}

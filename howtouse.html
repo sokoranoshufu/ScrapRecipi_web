@@ -1,104 +1,152 @@
 <!DOCTYPE html>
-<style media="screen">
-  body{
-    background-color:#fafafa;
-  }
-  h1{
-    font-size:28px;
-    background: #f8bbd0;
-    padding: 10px;
-    margin: 0px;
-  }
-  h2{
-    font-size:25px;
-    padding-left:20px;
-    border-bottom: solid 3px #c48b9f;
-  }
-  h3{
-    font-size:20px;
-    color:#880e4f;
-    padding-left:20px;
-  }
-  h4{
-    padding-left:25px;
-  }
-  p{
-    font-size:13px;
-    padding-left:10px;
-    padding-right:10px;
-  }
-  #setumei{
-    font-size:13px;
-    padding-left:35px;
-    padding-right:35px;
-  }
-</style>
 <html lang="ja" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>How to Use</title>
   </head>
   <body>
-    <h1>まとめレシピの使い方</h1>
-<a href="https://sokoranoshufu.github.io/ScrapRecipi_web/index.html">tesuto</a>
-    <h2>簡単な使い方説明</h2>
-    <p>まずは大まかな使い方について〇ステップで説明します。順としては<br>
-    　step1:献立の登録<br>
-    　step2:献立の確認<br>
-    　step3:料理の実施<br>
-    　step4:レシピ評価<br>
-  　です。では、詳しく見ていきましょう</p>
-    <h3>Step1:献立の登録</h3>
-    <p id="setumei">閲覧したいレシピの登録方法としては３種類あります。Webサイトから登録、List画面から登録、その他献立ボタンから登録です。以下各方法について説明します。</p>
+    <header aria-hidden="false">
+      <div class="tops">
+        <h1><img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\icon.png" alt="icon" >
+          <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\title.svg" alt="まとめレシピ" ></h1>
+      </div>
+    </header>
+    <!-- <div class="linksstyle"> -->
+      <ul class="linksstyle">
+        <li><a href="./home.html" ><img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\top.svg" alt="TOP" height="22px"></a></li>
+        <li><p  class="selectStyle"><img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\howtouse.svg" alt="使い方" height="22px"></p></li>
+        <li><a href="./windows.html"><img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\setumei.svg" alt="各画面説明" height="22px"></a>
+          <ul>
+            <li><a href="./windows/home.html">home</a></li>
+            <li><a href="./windows/web.html">web</a></li>
+            <li><a href="./windows/list.html">list</a></li>
+            <li><a href="./windows/createnew.html">createNew</a></li>
+            <li><a href="./windows/cook.html">cook</a></li>
+          </ul>
+        </li>
+        <!-- <li><a href="#">プライバシポリシー</a></li> -->
+      </ul>
 
-    <h4>webサイトから登録</h4>
-    <p id="setumei">
-      webボタンよりレシピサイトをOPEN<br>
-      レシピサイト内、レシピの掲載された画面になると、右下に＋ボタンが表示されます<br>
-      候補として確保しておきたい場合は「候補として保存」<br>
-      献立として保存したい場合は「献立として保存」をタップします。<br>
-      <br>※献立⇔候補の切り替えは、home画面でも可能です。<br>
-    </p>
+    <!-- ここまで固定ここからそれぞれの詳細 -->
+
+  <div class="mwaku">
+    <h2>簡単な使い方説明</h2>
+    <p>まずは大まかな使い方について４ステップで説明します。順としては<br>
+    　Step１:献立の登録<br>
+    　Step２:献立の確認<br>
+    　Step３:料理の実施<br>
+    　Step４:レシピ評価<br>
+    です。では、詳しく見ていきましょう</p>
+  <div class="wakustyle2">
+    <h3>Step1:献立の登録</h3>
+    <p class="setumei">献立の登録方法は３種類あります。Web画面から登録、List画面から登録、
+      その他献立ボタンから登録です。<br>
+      以下各方法について説明します。</p>
+
+    <h4>web画面から登録</h4>
+    <div class="yokoStyle">
+      <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_htu_1.png" alt="gamen_1" width="100px">
+      <div>
+        <p class="setumei">
+          ①：webボタンよりレシピサイトをOPEN<br>
+          ②:レシピサイト内、レシピの掲載された画面になると、右下に＋ボタンが表示されます<br>
+          タップするとボタンが表示されます。
+        </p>
+        <div class="yokoStyle">
+          <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_web_4.png" alt="web_4" width="100px">
+          <p>
+          献立として保存したい場合は「今日作る」をタップ<br>
+          候補として保存したい場合は「候補に追加」をタップ<br>
+          ※献立⇔候補の切り替えは、home画面でも可能です。<br>
+          </p>
+        </div>
+      </div>
+    </div>
     <h4>List画面から登録</h4>
-    <p id="setumei">
+    <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_htu_2.png" alt="htu_2" width="100px">
+    <p class="setumei">
       List画面には過去に料理したレシピがリストで表示されます<br>
       味評価順や最近使用した順ソートや、ワードによる検索も可能です。<br>
       レシピをタップ→表示される画面から献立として登録をタップします。<br>
     </p>
+
     <h4>その他献立から登録</h4>
-    <p id="setumei">
-      home画面右下の＋ボタンから登録ができます。<br>
-      レシピが無くても作れる献立（例：サラダ、味噌汁、カレー等）
-      を入力してください。<br>
-      入力できる項目はタイトル（レシピ名）と、コメント（材量等自由入力）です。<br>
-      入力例：<br>
-      タイトル→サラダ<br>
-      コメント→きゅうり、とまと、ブロッコリー<br>
-      ※編集中に更新ボタンを押すと挙動がおかしいんだよ！
-    </p>
-    <h3>step2:献立の確認</h3>
-    <h4>home画面確認</h4>
-    <p id="setumei">
-      home画面で献立を確認します。料理画面に表示されるのは献立と、その他献立です。候補のレシピは表示されませんのでご注意ください<br>
-      ※献立と候補の切り替えはレシピごとの♡ボタンをタップ
-    </p>
-    <h3>step3:料理の実施</h3>
-    <p id="setumei">cookをタップすることで料理を開始します。</p>
-    <h4>料理開始</h4>
-    <p id="setumei">
-      cook画面でできることは<br>
-      ・レシピの切り替え<br>
-      ・材料の表示・非表示<br>
-      ・レシピ掲載のWebページ表示<br>
-      ・不要手順の削除<br>
-    </p>
-    <h3>step4:レシピ評価</h3>
-    <p id="setumei">料理終了後、評価を登録することができます</p>
-    <h2>各画面説明</h2>
-    <h3>home画面</h3>
-    <h3>web画面</h3>
-    <h3>List画面</h3>
-    <h3>create New画面</h3>
-    <h3>cook画面</h3>
+    <div class="yokoStyle">
+      <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_home.png" alt="home_1" width="100px">
+      <p class="setumei">
+        home画面右下の＋ボタンから登録ができます。<br>
+        レシピが無くても作れる献立（例：サラダ、味噌汁、カレー等）
+        を入力してください。<br>
+        入力できる項目はタイトル（レシピ名）と、コメント（材量等自由入力）です。<br>
+        入力例：<br>
+        タイトル→サラダ<br>
+        コメント→きゅうり、とまと、ブロッコリー<br>
+        ※編集中に更新ボタンを押すと挙動がおかしいんだよ！
+      </p>
+    </div>
+    <h4>CreateNewでレシピ保存後登録</h4>
+    <div class="yokoStyle">
+      <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_createNew.png" alt="home_1" width="100px">
+      <p clas="setumei">
+        CreateNewでレシピを記録後、<br>
+        List画面から登録することもできます。<br>
+        CreateNewの詳しい使い方は<a href="./windows/createnew.html">こちら</a>で確認してください。<br>
+        保存後、List画面から登録できます。
+      </p>
+    </div>
+      </div>
+        <div class="wakustyle2">
+          <h3>step2:献立の確認</h3>
+          <h4>home画面確認</h4>
+          <div class="yokoStyle">
+            <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_home.png" alt="home_1" width="100px">
+            <p class="setumei">
+              home画面で献立を確認します。料理画面に表示されるのは献立と、その他献立です。候補のレシピは表示されませんのでご注意ください<br>
+              ※献立と候補の切り替えはレシピごとの♡ボタンをタップ
+            </p>
+          </div>
+        </div>
+      <div class="wakustyle2">
+        <h3>step3:料理の実施</h3>
+        <p class="setumei">cookをタップすることで料理を開始します。</p>
+        <h4>料理開始</h4>
+        <div class="yokoStyle">
+          <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_cook_1.png" alt="cook_1" width="100px">
+          <p class="setumei">
+            cook画面でできることは<br>
+            ・レシピの切り替え<br>
+            ・材料の表示・非表示<br>
+            ・レシピ掲載のWebページ表示<br>
+            ・不要手順の削除<br>
+          </p>
+        </div>
+      </div>
+      <div class="wakustyle2">
+        <h3>step4:レシピ評価</h3>
+        <p class="setumei">料理終了後、評価を登録することができます</p>
+        <h4>料理終了ボタン</h4>
+        <div class="yokoStyle">
+          <img src="C:\Users\yyy_f\github\ScrapRecipi_web\gaz\w_cook_7.png" alt="cook_7" width="100px">
+          <p>
+            料理終了ボタンを押すと評価画面が表示されます。<br>
+            入力項目は<br>
+            ・味評価<br>
+            ・手間評価<br>
+            ・所要時間評価<br>
+            ・コメント<br>
+            の４点。
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!-- </div> -->
+
+<!-- 以下共通 -->
+    <footer class="footerStyle">
+      <a href="./index.html">プライバシポリシー</a>
+    </footer>
   </body>
 </html>
