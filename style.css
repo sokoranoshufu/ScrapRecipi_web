@@ -3,7 +3,6 @@ html{
 }
 body{
   background-color:#f0f0f0;
-  background-image: url(C:\Users\yyy_f\github\ScrapRecipi_web\gaz\icon.png);
   background-position: 0,0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -36,6 +35,10 @@ margin-bottom:0px;
 }
 h5{
   font-size: 15px;
+  margin-bottom: 5px;
+}
+h6{
+  margin:0;
 }
 p{
   line-height: 2;
@@ -229,12 +232,24 @@ ul.linksstyle ul>li>a{
 .yokoStyle img{
   padding-right: 15px;
 }
+.yokoStyle p img{
+  padding-right: 3px;
+}
 .yokoStyle p{
   margin-top: -3px;
 }
 
 .tops img{
   height: 40px;
+}
+
+.imgtate {
+  display: flex;
+  flex-direction: column;
+}
+
+.googlestyle{
+  padding:20px;
 }
 /* @media (min-width:600px){
   #parent{
@@ -249,10 +264,10 @@ ul.linksstyle ul>li>a{
 } */
 @media screen and (max-width:600px) {
   body{
-    font-size: 9px;
+    font-size: 13px;
   }
 p{
-  font-size: 9px;
+  font-size: 13px;
   margin-top: 0;
   margin-bottom: 0px;
   padding-right: 5px;
@@ -265,21 +280,25 @@ h1{
   color: #880e4f;
 }
 h2{
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 5px;
 }
 h3 {
-  margin-top: 7px;
-  font-size: 13px;
+  margin-top: 10px;
+  font-size: 18px;
 }
 h4{
-  margin-top: 8px;
-  font-size: 11px;
+  margin-top: 15px;
+  font-size: 16px;
 }
 h5{
   margin-top: 19px;
-  font-size: 10px;
+  font-size: 14px;
   margin-bottom: 0;
+}
+h6{
+  font-weight: normal;
+  font-size: 8px;
 }
 header{
   height: 30px;
@@ -292,10 +311,14 @@ header{
 }
 .setumei{
   padding-right: 5px;
-  font-size: 6px;
+  font-size: 13px;
 }
 .yokoStyle{
   display: block;
+}
+.yokoStyle div{
+  display: flex;
+  flex-direction: column;
 }
 .wakustyle1 h5{
   margin-bottom: 0;
@@ -321,22 +344,22 @@ header{
   padding: 2px;
 }
 ul.linksstyle{
-  height: 30px;
+  height: 40px;
   padding-left: 0;
 }
 ul.linksstyle a{
-  line-height: 10px;
-  padding : 5px;
+  line-height: 20px;
+  padding : 8px;
 }
 ul.linksstyle img{
-  height: 10px;
+  height: 15px;
 }
 ul.linksstyle ul li{
   width: 100px;
 }
 .selectStyle{
-  line-height:10px;
-  padding: 5px;
+  line-height:20px;
+  padding: 8px;
 }
 .footerStyle{
   height: 30px;
