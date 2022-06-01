@@ -269,7 +269,7 @@ ul.linksstyle ul>li>a{
 p{
   font-size: 13px;
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   padding-right: 5px;
 }
 h1{
@@ -307,7 +307,7 @@ header{
   left: 0;
 }
 .tops img{
-  height: 20px;
+  height: 25px;
 }
 .setumei{
   padding-right: 5px;
