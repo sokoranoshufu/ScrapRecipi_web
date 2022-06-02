@@ -30,11 +30,12 @@ h3{
 }
 h4{
   font-size: 22px;
-  margin-top: 30px;
+  margin-top: 15px;
 margin-bottom:0px;
 }
 h5{
-  font-size: 15px;
+  font-size: 18px;
+  margin-top: 0px;
   margin-bottom: 5px;
 }
 h6{
@@ -87,6 +88,12 @@ tr{
 
 .mainStyle{
   padding-left: 20px;
+}
+
+.miniLinkStyle{
+  margin-top: 0px;
+  padding-left: 50px;
+  display: flex;
 }
 
 ul.linksstyle {
@@ -173,7 +180,7 @@ ul.linksstyle ul>li>a{
 
 .wakustyle1{
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 7px;
   border: 3px solid;
   border-color: #f0f0f0;
   margin-bottom: 10px;
@@ -184,8 +191,8 @@ ul.linksstyle ul>li>a{
   margin: 10px 0px 10px 0px;
 }
 .wakustyle2{
-  background-color: #f0f0f033;
-  border-radius: 10px;
+  background-color: #eeeeee;
+  border-radius: 7px;
   border: 3px solid;
   border-color: #f0f0f0;
   margin-bottom: 10px;
@@ -204,7 +211,7 @@ ul.linksstyle ul>li>a{
 
 .mwaku{
   background-color: white;
-  border-radius: 15px;
+  border-radius: 7px;
   border: 1px solid;
   border-color: #fefefe;
   margin: 30px 10px 10px 10px;
@@ -277,23 +284,23 @@ h1{
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 10px;
   color: #880e4f;
 }
 h2{
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 5px;
 }
 h3 {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 h4{
-  margin-top: 15px;
-  font-size: 16px;
+  font-size: 18px;
 }
 h5{
   margin-top: 19px;
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 0;
 }
 h6{
@@ -301,13 +308,13 @@ h6{
   font-size: 8px;
 }
 header{
-  height: 30px;
-  padding-top: 0;
+  height: 40px;
+  padding: 10px;
   top : 0;
   left: 0;
 }
 .tops img{
-  height: 25px;
+  height: 30px;
 }
 .setumei{
   padding-right: 5px;
@@ -327,29 +334,34 @@ header{
   background-color: white;
   border-radius: 3px;
   border: 0;
-  margin: 3px;
-  padding: 6px;
+  margin: 5px;
+  padding: 14px;
 }
 .wakustyle1{
   background-color: #ffffff;
   border-radius: 3px;
   border: 0;
-  padding: 3px;
+  padding: 10px;
+  margin: 0px;
 }
 .wakustyle2{
-  background-color: #ffffff;
+  background-color: #eeeeee;
   border-radius: 3px;
   border-color: #000000;
   border: 1px solid;
-  padding: 2px;
+  padding: 10px;
+}
+.miniLinkStyle{
+  display: flex;
+  padding-left: 20px;
 }
 ul.linksstyle{
-  height: 40px;
-  padding-left: 0;
+  height: 35px;
+  padding-left: 10px;
 }
 ul.linksstyle a{
-  line-height: 20px;
-  padding : 8px;
+  line-height: 18px;
+  padding : 5px;
 }
 ul.linksstyle img{
   height: 15px;
@@ -358,8 +370,8 @@ ul.linksstyle ul li{
   width: 100px;
 }
 .selectStyle{
-  line-height:20px;
-  padding: 8px;
+  line-height:18px;
+  padding: 5px;
 }
 .footerStyle{
   height: 30px;
