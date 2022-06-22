@@ -42,7 +42,7 @@ h6{
   margin:0;
 }
 p{
-  line-height: 2;
+  line-height: 1.5;
   margin-top: 3px;
   margin-bottom: 20px;
   font-size:13px;
@@ -238,6 +238,7 @@ ul.linksstyle ul>li>a{
 }
 .yokoStyle img{
   padding-right: 15px;
+  padding-bottom: 5px;
 }
 .yokoStyle p img{
   padding-right: 3px;
