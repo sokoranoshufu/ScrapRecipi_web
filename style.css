@@ -3,6 +3,7 @@ html{
 }
 body{
   background-color:#f0f0f0;
+  /* background-color:#572D2D; */
   background-position: 0,0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,7 +12,7 @@ body{
   margin: 0;
 }
 h1{
-  padding-left: 40px;
+  padding-left: 50px;
   white-space: nowrap;
   font-size:28px;
   margin-top: 30px;
@@ -21,7 +22,7 @@ h1{
 h2{
   font-size:25px;
   margin-top: 0px;
-  border-bottom: solid 3px #c48b9f;
+  border-bottom: solid 3px #F8BBD0;
 }
 h3{
   font-size:23px;
@@ -52,11 +53,11 @@ img{
   vertical-align: bottom;
 }
 header{
-  height: 100px;
+  height: 160px;
   width: 100%;
   top: 0;
   left: 0;
-  padding: 10px;
+  padding-top: 10px;
   /* position:fixed; */
   display: block;
   background-color: white;
@@ -91,18 +92,19 @@ tr{
 }
 
 .miniLinkStyle{
+  background-color: #D6F3BC;
   margin-top: 0px;
   padding-left: 50px;
   display: flex;
 }
 
 ul.linksstyle {
-  border-bottom: 3px solid #f5f5f5;
+  /* border-bottom: 3px solid #572D2D; */
   background-color: white;
   margin: 0;
   padding: 0px;
   padding-left: 40px;
-  width: 100%;
+  width: 100%-40px;
   display: flex;
   list-style: none;
     height: 50px;
@@ -145,9 +147,9 @@ ul.linksstyle li {
   padding-left: 10px;
 }
 ul.linksstyle a{
-  color: #6d4c41;
+  color: #572D2D;
   background-color: white;
-  border-bottom: 3px solid #6d4c41;
+  border-bottom: 3px solid #572D2D;
   line-height: 30px;
   text-decoration: none;
   display: block;
@@ -157,7 +159,7 @@ ul.linksstyle a{
 ul.linksstyle a:hover{
   font-weight: bold;
   background-color: #eeeeee;
-  color:#3e2723;
+  color:#572D2D;
 }
 ul.linksstyle ul>li>a{
   text-align: left;
@@ -193,8 +195,8 @@ ul.linksstyle ul>li>a{
 .wakustyle2{
   background-color: #eeeeee;
   border-radius: 7px;
-  border: 3px solid;
-  border-color: #f0f0f0;
+  /* border: 1px solid;
+  border-color: #572D2D; */
   margin-bottom: 10px;
   padding: 30px;
 }
@@ -212,8 +214,8 @@ ul.linksstyle ul>li>a{
 .mwaku{
   background-color: white;
   border-radius: 7px;
-  border: 1px solid;
-  border-color: #fefefe;
+  /* border: 1px solid;
+  border-color: #fefefe; */
   margin: 30px 10px 10px 10px;
   padding: 40px;
 }
@@ -277,11 +279,11 @@ ul.linksstyle ul>li>a{
 p{
   font-size: 13px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding-right: 5px;
 }
 h1{
-  padding-left: 0;
+  padding-left: 10px;
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -309,8 +311,8 @@ h6{
   font-size: 8px;
 }
 header{
-  height: 40px;
-  padding: 10px;
+  height: 95px;
+  padding-top: 10px;
   top : 0;
   left: 0;
 }
@@ -348,16 +350,17 @@ header{
 .wakustyle2{
   background-color: #eeeeee;
   border-radius: 3px;
-  border-color: #000000;
-  border: 1px solid;
+  /* border: 1px solid;
+  border-color: #572D2D; */
   padding: 10px;
 }
 .miniLinkStyle{
+  background-color: #D6F3BC;
   display: flex;
   padding-left: 20px;
 }
 ul.linksstyle{
-  height: 35px;
+  height: 31px;
   padding-left: 10px;
 }
 ul.linksstyle a{
