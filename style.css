@@ -82,10 +82,16 @@ a{
 table{
   width: 100%
 }
-tr{
+/* tr{
+  height: 50px;
+} */
+.gamenListstyle tr{
   height: 50px;
 }
 
+td{
+  vertical-align: top;
+}
 
 .mainStyle{
   padding-left: 20px;
@@ -274,10 +280,10 @@ ul.linksstyle ul>li>a{
 } */
 @media screen and (max-width:600px) {
   body{
-    font-size: 13px;
+    font-size: 15px;
   }
 p{
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 0;
   margin-bottom: 10px;
   padding-right: 5px;
@@ -321,7 +327,7 @@ header{
 }
 .setumei{
   padding-right: 5px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .yokoStyle{
   display: block;
