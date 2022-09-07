@@ -12,10 +12,10 @@ body{
   margin: 0;
 }
 h1{
-  padding-left: 50px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
+  margin-top: 0;
+  margin-bottom: 0;
   font-size:28px;
-  margin-top: 30px;
   color: #880e4f;
 
 }
@@ -255,6 +255,15 @@ ul.linksstyle ul>li>a{
   margin-top: -3px;
 }
 
+.tops{
+  padding-left: 50px;
+  white-space: nowrap;
+  /* font-size:28px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #880e4f;
+}
+
 .tops img{
   height: 40px;
 }
@@ -289,11 +298,7 @@ p{
   padding-right: 5px;
 }
 h1{
-  padding-left: 10px;
   font-size: 20px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 10px;
   color: #880e4f;
 }
 h2{
@@ -322,6 +327,15 @@ header{
   top : 0;
   left: 0;
 }
+
+.tops{
+  padding-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: #880e4f;
+}
+
 .tops img{
   height: 30px;
 }
